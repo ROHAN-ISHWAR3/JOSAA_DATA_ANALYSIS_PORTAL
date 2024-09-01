@@ -1,5 +1,21 @@
 ## **Problem statement**
-![image](https://github.com/user-attachments/assets/9df020fb-94e8-44f2-9547-5f3ee8144a34)
+
+
+Create a portal to explore the JOSAA (Joint Seat Allocation Authority) seat allotment statistics until 2022. Extract data from the JOSAA website: 2016 to 2021 and 2022. The portal should allow us to find interesting insights from the data. For example, we can ask questions such as: which branches are getting more popular? What is the flow of students among the IITs over the years? You can prepare a list of such exciting questions and observations to be shown in the portal. For better presentation of the insights, visualization tools like charts and tables are to be used on the portal frontend.
+## **Goals:**
+
+-Web scraping JOSAA data using Python libraries and converting it into a datframe. Cleaning the data and performing some EDA.
+-Creating a SQLite database from the data obtained and performing queries on it.
+-Creating a website where we will be showing our analysis with the help of various charts(using Chart.js).
+
+
+
+## **Tech Stack/Frameworks:**
+
+Frontend-HTML, CSS, JS
+Backend - Django, SQLite
+Data Scraping - Beautiful Soup/Selenium
+Data Cleaning - Numpy, Pandas
 
 
 ## **Home Page**
